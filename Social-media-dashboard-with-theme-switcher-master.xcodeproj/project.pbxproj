@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583F18D92B9183BA00D923AC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F18D82B9183BA00D923AC /* Data.swift */; };
 		58982BDB2B8FE82E00B8B480 /* Social_media_dashboard_with_theme_switcher_masterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58982BDA2B8FE82E00B8B480 /* Social_media_dashboard_with_theme_switcher_masterApp.swift */; };
 		58982BDD2B8FE82E00B8B480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58982BDC2B8FE82E00B8B480 /* ContentView.swift */; };
 		58982BDF2B8FE83000B8B480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58982BDE2B8FE83000B8B480 /* Assets.xcassets */; };
 		58982BE22B8FE83000B8B480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58982BE12B8FE83000B8B480 /* Preview Assets.xcassets */; };
+		58982BEA2B8FEA3200B8B480 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58982BE82B8FEA3200B8B480 /* Inter-Regular.ttf */; };
+		58982BEB2B8FEA3200B8B480 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58982BE92B8FEA3200B8B480 /* Inter-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		583F18D82B9183BA00D923AC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		58982BD72B8FE82E00B8B480 /* Social-media-dashboard-with-theme-switcher-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-media-dashboard-with-theme-switcher-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58982BDA2B8FE82E00B8B480 /* Social_media_dashboard_with_theme_switcher_masterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_media_dashboard_with_theme_switcher_masterApp.swift; sourceTree = "<group>"; };
 		58982BDC2B8FE82E00B8B480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58982BDE2B8FE83000B8B480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58982BE12B8FE83000B8B480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58982BE82B8FEA3200B8B480 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		58982BE92B8FEA3200B8B480 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		58982BED2B8FEA4B00B8B480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,11 @@
 		58982BD92B8FE82E00B8B480 /* Social-media-dashboard-with-theme-switcher-master */ = {
 			isa = PBXGroup;
 			children = (
+				58982BED2B8FEA4B00B8B480 /* Info.plist */,
+				58982BEC2B8FEA3700B8B480 /* Fonts */,
 				58982BDA2B8FE82E00B8B480 /* Social_media_dashboard_with_theme_switcher_masterApp.swift */,
 				58982BDC2B8FE82E00B8B480 /* ContentView.swift */,
+				583F18D82B9183BA00D923AC /* Data.swift */,
 				58982BDE2B8FE83000B8B480 /* Assets.xcassets */,
 				58982BE02B8FE83000B8B480 /* Preview Content */,
 			);
@@ -65,6 +75,15 @@
 				58982BE12B8FE83000B8B480 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58982BEC2B8FEA3700B8B480 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58982BE92B8FEA3200B8B480 /* Inter-Bold.ttf */,
+				58982BE82B8FEA3200B8B480 /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				58982BE22B8FE83000B8B480 /* Preview Assets.xcassets in Resources */,
+				58982BEA2B8FEA3200B8B480 /* Inter-Regular.ttf in Resources */,
+				58982BEB2B8FEA3200B8B480 /* Inter-Bold.ttf in Resources */,
 				58982BDF2B8FE83000B8B480 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58982BDD2B8FE82E00B8B480 /* ContentView.swift in Sources */,
+				583F18D92B9183BA00D923AC /* Data.swift in Sources */,
 				58982BDB2B8FE82E00B8B480 /* Social_media_dashboard_with_theme_switcher_masterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +292,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Social-media-dashboard-with-theme-switcher-master/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +322,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Social-media-dashboard-with-theme-switcher-master/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
